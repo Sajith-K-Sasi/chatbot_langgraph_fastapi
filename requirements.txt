@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+langgraph
+langchain_groq
+langchain
+python-dotenv
+tiktoken
+websockets
