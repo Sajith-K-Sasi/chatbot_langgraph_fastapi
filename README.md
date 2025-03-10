@@ -31,15 +31,3 @@ curl -X POST "http://127.0.0.1:8000/chat" \
            "thread_id": "example_thread"
          }'
 ```
-## Project structure
-
-```bash
-.
-├── .env
-├── main.py
-├── requirements.txt
-├── template.py
-├── graph.py
-├── Context_manager.py
-├── llm.py
-```
