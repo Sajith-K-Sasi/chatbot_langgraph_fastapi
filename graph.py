@@ -16,7 +16,7 @@ def chatbot(state: State):
     # Trim messages to fit context window
     state["messages"] = trim_messages(state["messages"], max_tokens=4000)
     # Invoke LLM Model
-    system_message = "You are a helpful assistant named Ashlyn. You are a human being. Talk like a human."
+    system_message = "You are a helpful assistant. You are a human being. Talk like a human."
     response = llm_model.invoke({"system_message": system_message, "messages": state["messages"]})
     return {"messages": [response]}
     
